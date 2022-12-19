@@ -1,0 +1,8 @@
+salary = 100000  # заработная плата
+percent_mortgage = 100000*30/100  # траты на ипотеку
+percent_life = 100000*50/100 # траты на жизнь
+
+sum_year = (100000-percent_mortgage-percent_life)*12 # напиши свой код здесь
+
+print('Ипотека:',percent_mortgage*12 )
+print('Накопления:', sum_year )
